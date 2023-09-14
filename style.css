@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+  }
+  .game {
+    display: flex;
+    padding: 10vh;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+    height: 100vh;
+    
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 3vh;
+    background-color: black;
+    color: antiquewhite;
+    height: 7vh;
+  }
+  .info {
+    background: rgba(239, 231, 231, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: 1px solid rgba(239, 231, 231, 0.81);
+    height: 25vh;
+    width: 25vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    font-size: 4vh;
+    margin-left: -30vh;
+  }
+  .turn {
+    margin-top: 3vh;
+    margin-bottom: 8vh;
+  }
+  
+  button {
+    width: 16vh;
+    height: 5vh;
+    font-size: 3vh;
+  }
+  .row {
+    display: flex;
+  }
+  .cell {
+    /* border: none; */
+    width: 17vh;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9vh;
+    text-align: center;
+    cursor: pointer;
+    /* border: 2px solid black; */
+  }
+  .cell:hover {
+    background-color: rgb(230, 230, 220, 0.4);
+  }
+  
+  .b1 {
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+  }
+  
+  .b2 {
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+  }
+  
+  .b3 {
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+  }
+  
+  .b4 {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+  }
+  
+  .b5 {
+    border: 3px solid black;
+  }
+  
+  .b6 {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+  }
+  
+  .b7 {
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+  }
+  
+  .b8 {
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+  }
+  
+  .b9 {
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+  }
+  
+  .gif {
+    margin-top: -50vh;
+    margin-left: 65vh;
+  }
+  .gif iframe {
+    height: 30vh;
+    width: 60vh;
+  }
+  .visible {
+    visibility: hidden;
+  }
